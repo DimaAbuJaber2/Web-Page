@@ -1,0 +1,405 @@
+/* start header section */
+
+
+@media screen and (max-width:1063px)
+{
+    .navbar .nav {
+      width: 60%;
+      float: left;
+    }
+    .navbar .logo
+    {
+        width: 40%;
+        float: left;
+    }   
+}
+@media screen and (max-width:1000px)
+{
+    .navbar .nav
+    {
+        display: none;
+       
+    }
+    .navbar .bar{
+        display: inline-block;
+        font-size: 40px;
+        position: fixed;
+        right: 0;
+    }
+}
+
+@media screen and (max-width:766px)
+{
+    .header
+    {
+        background-image:url('../img/bakeryFamily.jpg');
+        height: 900px;
+        background-size:cover;
+        background-position:center;
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+.header p {
+    margin-bottom: 50px;
+}
+.header h1
+{
+    font-size: 40px;
+    
+}
+}
+/* end header */
+/* start section who we are*/
+@media screen and (max-width:1024px)
+{
+    .about-img
+{
+    float: left;
+    width: 43%;
+   
+    
+}
+@media screen and (max-width:766px)
+{
+    .container-about
+    {
+        width: 100%;
+        margin-left: -10px;
+        
+    }
+    .about-img img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .about-img
+    {
+        float: none;
+        width: 100%;  
+        
+        
+    }
+    .about-content
+{
+    float: none;
+    width: 100%;
+    margin-left: 30px;
+    
+   
+}
+.about-content p ,ul 
+{
+   line-height: 29px;
+   width: 80%;
+   margin-bottom: 30px;
+}
+
+}
+@media screen and (max-width:280px)
+{
+    .about-content p ,ul 
+    {
+    font-size: 10px;
+    }
+}
+
+.about-img img{
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+}
+.about-content
+{
+    float: left;
+    width: 48%;
+    margin-left: 40px;
+    margin-top: 70px;
+   
+}
+.about-content p
+{
+   line-height: 29px;
+   width: 100%;
+   margin-bottom: 30px;
+}
+}
+/* end section who we are */
+/* start location */
+
+@media screen and (max-width:1024px)
+{
+    .location-content
+    {
+        float: left;
+        width: 42%;
+       
+    }
+    .location-img
+    {
+        float: left;
+        width: 40%;
+        margin-left:30px;
+        padding-bottom: 90px;
+        
+    }
+    
+        
+}
+@media screen and (max-width:766px)
+{
+.location-content
+{
+    float: none;
+    width: 100%;
+    
+   
+}
+.location-img
+{
+    float: none;
+    width: 100%;
+    margin-left: -8px;
+    
+}
+
+.location .location-img img
+{
+    width:100%;
+    height:440px;
+}
+.location .location-content p{
+    width: 80%;
+}  
+.location .location-content
+{
+    padding-left:10px;
+    
+}    
+}
+
+
+
+/* end location */
+/* start baking */
+
+@media screen and (max-width:1024px)
+{
+    .Superior
+{
+    float:left;
+    width: 31%;
+    
+}
+.Bagels
+{
+    float:left;
+    width: 31%;
+}
+.Cookies
+{
+    float:left;
+    width: 31%;
+}
+.baking-content
+{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 80px;
+  
+    
+}
+.baking-content img{
+   width: 300px;
+   height: 270px;
+
+}
+.baking
+{
+    text-align: center;
+}
+
+.baking p 
+{
+    font-size: 17px;
+    color: #888;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+}
+@media screen and (max-width:766px)
+{
+    .Superior
+    {
+        float:none;
+        width: 100%;
+        margin-left:0px;
+    }
+    .Bagels
+    {
+        float:none;
+        width: 100%;
+    }
+    .Cookies
+    {
+        float:none;
+        width: 100%;
+    } 
+    .baking p 
+{
+    padding-bottom: 20px;
+}
+.baking-content img{
+    width: 100%;
+    height: 100%;
+ 
+ }
+}
+
+
+
+/* end baking */
+/* start map */
+
+@media screen and (max-width:1024px)
+{
+    
+    .map-img
+    {
+        float: left;
+        width: 43%;
+        padding-top: 160px;
+       
+       
+        
+    }
+    
+    .map-img iframe:hover{
+        cursor: pointer;
+    }
+    .map-content
+    {
+        float: left;
+        width: 45%;
+        margin-left: 60px;
+       padding-top: 150px;
+      
+    }
+    
+    .map-content p
+    {
+       width: 100%;
+    }
+}
+@media screen and (max-width:766px)
+{
+.map
+{
+    width: 100%;
+}
+.map-img
+{
+    float:none;
+    width: 100%;
+}
+
+.map-content
+{
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+  
+}
+
+.map-content p,h2,li
+{
+   line-height: 29px;
+   width: 100%;
+   margin-bottom: 30px;
+   margin-right: 0px;
+   margin-left: 10px;
+}
+
+.map-content iframe
+{
+    width:100%;
+    height: 100%;
+}
+
+
+}
+
+
+
+
+
+/* end map */
+
+/* start footer */
+@media screen and (max-width:992px)
+{
+    .footer 
+    {
+        width: 100%;
+        background-color: #403d38;
+        padding: 40px;
+        overflow: hidden;
+        
+    }
+    .footer .item a{
+        color: #969696;
+        margin-bottom: 15px;
+        display: block;
+        cursor: text;
+       
+    }
+    
+    .footer .item
+    {
+        float: left;
+        width: 50%;
+        color: #969696;
+    }  
+}
+
+
+
+
+
+@media screen and (max-width:766px)
+{
+    .footer 
+    {
+        width: 100%;
+        background-color: #403d38;
+        padding: 40px;
+        overflow: hidden;
+        
+    }
+      
+    
+    .footer .item
+    {
+        float: none;
+        width: 100%;
+        color: #969696;
+    }
+
+    
+}
+/* end footer */
+/* start options */
+@media screen and (max-width:766px)
+{
+
+.options li a
+{
+    padding-top: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    display: block;
+}
+}
+
+/* end options */

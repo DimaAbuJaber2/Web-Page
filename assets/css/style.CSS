@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+.container
+{
+    overflow-x: hidden;
+}
+/* start options */
+.options
+{
+    position: fixed;
+    right:0;
+    top:100px;
+    background-color: white;
+    width: 50px;
+    height: 100px;
+    z-index: 9999999;
+    
+}
+.second-options
+
+{
+    position: fixed;
+    bottom:0;
+    right:10px;
+    padding-bottom: 20px;
+    
+}
+
+.second-options li i{
+    background-color:#272626;
+    color: #777;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    font-size:medium;
+    text-align: center;
+    border: 2px solid;
+    border-color: #777;
+
+}
+.second-options li i:hover{
+    background-color: black;
+    color: white;
+    transition: all;
+    cursor: pointer;
+    transition-duration: .8s;
+}
+.options li a
+{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    display: block;
+}
+.fa2
+{
+ color: #666;;
+}
+.fa1
+{
+ color:#195f9c
+}
+.options li :hover
+{
+    color: #0275d8;
+    transition: color .5s;
+    cursor: pointer;
+}
+/* end options */
+/* start header */
+
+.header
+{
+    background-image:url('../img/bakeryFamily.jpg');
+    height:900px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.overlay
+{
+    background-color: rgba(0,0, 0, .2);
+   height: 100%;
+}
+.navbar .logo{
+    float: left;
+    width: 50%;
+}
+.navbar .nav{
+    float:left;
+    width: 50%;
+}
+.navbar .nav .list-content
+{
+    padding-top: 10px;
+    display: inline-block;
+}
+.navbar .nav .list-content :hover
+{
+    color: #e6c28e;
+    transition: color .5s;
+}
+ #l1 :hover
+{
+    color: white;
+}
+.navbar
+{
+    overflow: hidden;
+    padding-top: 30px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.navbar .logo img{
+    width: 25%;
+    padding-right: 400px;
+}
+ul{
+    list-style: none;
+}
+.navbar .nav .list-content a{
+    color: white;
+    font-size: 20px;
+    font-family: "Alegreya";
+    margin-right: 30px;   
+    padding-top: 37px;
+  
+}
+.navbar .nav .list-content.active a
+{
+    border-top: 3px solid #ae9768;
+}
+.navbar .nav .list-content.active a:hover{
+    color: white;
+}
+.navbar .bar{
+    display: none;
+  
+}
+.header_content
+{
+    
+    padding-top: 290px;
+    
+}
+.header_content h1{
+    padding-right: 60px;
+    padding-top: 70px;
+}
+.header_content p
+{
+    font-size: 22px;
+    
+   
+}
+.p1
+{
+    margin-bottom: 13px;
+}
+.p2
+{
+    margin-bottom: 26px;
+}
+.header h1
+{
+    font-size: 70px;
+    font-weight: 100;
+    font-family:"Alegreya";
+    
+    margin-bottom: 26px;
+}
+.btn
+{
+    padding: 18px 29px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    
+}
+.btn1
+{
+    background-color:rgb(142, 119, 84);
+    border: 2px solid transparent;   
+}
+.btn2
+{
+    background-color:transparent;
+}
+.btn1:hover
+{
+    background-color: white;
+    color: black;
+    transition: all;
+    transition-duration: .5s;
+    
+}
+.btn2:hover
+{
+    transition: all;
+    transition-duration: .5s;
+    background-color: white;
+    color: black; 
+}
+.btn:hover{
+    cursor: pointer;
+    transition: all;
+    transition-duration: .5s;
+
+}
+/* end header */
+
+/* start section who are we */
+
+.container-about
+{
+    width: 100%;
+    margin-left: 50px;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.about-img
+{
+    float: left;
+    width: 43%;
+   
+    
+}
+.about-img img{
+    width: 100%;
+    height: 530px;
+}
+.about-content
+{
+    float: left;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 70px;
+   
+}
+
+.about-content p
+{
+   line-height: 29px;
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+.about-content p , ul
+{
+    color: #686868;
+}
+.about-content h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Alegreya";
+   
+
+}
+.about-content ul 
+{
+    line-height: 60px;
+}
+.about-content ul li i{
+    background-color: white;
+    color: #8e7754;
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    border: 1px solid rgba(0,0,0,.15);
+    line-height: 50px;
+    text-align: center;
+    font-size:x-large;
+}
+
+/* end section who are we */
+/* start location section */
+
+.location-content
+{
+    float: left;
+    width: 42%;
+   
+}
+.location-img
+{
+    float: left;
+    width: 45%;
+    margin-left:70px;
+    padding-bottom: 90px;
+    
+}
+
+.location{
+ overflow: hidden;
+ width: 100%;
+ background-color: #f8f8f8;
+ padding-top: 90px;
+ margin-bottom: 80px;
+ 
+ 
+}
+.location .location-img img
+{
+    width:570px;
+    height:440px;
+}
+.location .location-content h2{
+    font-family: "Alegreya";
+    font-weight: 400;
+    padding-top: 80px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.location .location-content p{
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    font-weight :400;
+    line-height: 32px;
+    margin-bottom: 20px;
+    
+}
+.location .location-content
+{
+    padding-left: 80px;
+    
+}
+/* end location section */
+/* start baking section */
+.Superior
+{
+    float:left;
+    width: 31%;
+    margin-left: 48px;
+}
+.Bagels
+{
+    float:left;
+    width: 31%;
+}
+.Cookies
+{
+    float:left;
+    width: 31%;
+}
+.baking-content
+{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 80px;
+  
+    
+}
+.baking-content img{
+   width: 370px;
+   height: 300px;
+
+}
+.baking
+{
+    text-align: center;
+}
+.baking-head h2{
+    margin-bottom: 25px;
+    color: #303030;
+    font-size: 30px;
+    
+}
+.baking h2{
+    color: #303030;
+   
+}
+.baking-content h2{
+    font-size: 22px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.baking p 
+{
+    font-size: 17px;
+    color: #888;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.baking-head p{
+    margin-bottom: 60px;
+    
+}
+
+/* end baking section */
+
+/* start map section  */
+.map
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 70px;
+    padding-bottom: 80px;
+    background-color: #f8f8f8;
+   
+}
+.map-img
+{
+    float: left;
+    width: 48%;
+    padding-top: 140px;
+   
+   
+    
+}
+
+.map-img iframe:hover{
+    cursor: pointer;
+}
+.map-content
+{
+    float: left;
+    width: 47%;
+    margin-left: 60px;
+   padding-top: 150px;
+  
+}
+
+.map-content p
+{
+   line-height: 29px;
+   width: 550px;
+   margin-bottom: 30px;
+   margin-right: 100px;
+}
+
+.map-content p , ul
+{
+    color: #686868;
+}
+.map-content h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Alegreya";
+   
+
+}
+.map-content ul 
+{
+    line-height: 60px;
+}
+.map-content ul li i{
+    background-color: #8e7754;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    border: 1px solid rgba(0,0,0,.15);
+    line-height: 40px;
+    text-align: center;
+    font-size:medium;
+}
+/* end map */
+/* start footer  */
+.footer 
+{
+    background-color: #403d38;
+    padding: 40px;
+    overflow: hidden;
+    
+}
+.footer .item h2{
+    color: white;
+    font-size: 16px;
+    font-weight: 590;
+    margin-bottom: 30px;
+}
+.footer .item a{
+    color: #969696;
+    margin-bottom: 20px;
+    display: block;
+    cursor: text;
+   
+}
+.footer .item h2,p,li{
+    cursor:text;
+}
+a
+{
+    text-decoration: none;
+}
+.footer .detail li
+{
+   cursor:pointer;
+}
+.footer .detail span:hover
+{
+   color: white;
+   transition: color 1s;
+}
+.footer .contacts span
+{
+    padding-left: 10px;
+}
+.footer .item li
+{
+    margin-bottom:10px;
+    
+}
+
+.footer .item  li 
+{
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    z-index: 1;
+    width:280px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   
+}
+.footer .item i{
+    margin-right: 15px;
+}
+.footer .contacts li{
+    margin-bottom: 40px;
+   opacity: none;
+   color: rgba(255, 255, 255, 0.322);
+    
+    
+}
+.footer .contacts
+{ 
+       color: #777;
+}
+.footer .item p{
+    
+    font-size: 16px;
+    width: 87%;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .contacts
+{
+    background-image: url(../img/map.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:-1;
+    ;
+    
+    
+}
+.footer .item
+{
+    float: left;
+    width: 25%;
+    color: #969696;
+}
+
+.footer .item a:before{
+    
+    content:'\f105';
+    font-family: FontAwesome;
+    margin-right:10px ;
+    font-size: small;
+}
+
+/* end footer */
+/* start second footer */
+.second-footer
+{
+    background-color:  #35322e;
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+.second-footer p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  color: #777;
+}
+.second-footer .icons i
+{
+    background-color: #484540;
+    color: #969696;
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    font-size:medium;
+    margin-right: 7px;
+}
+.second-footer .icons .i4:hover{
+    background-color:#399af0;
+    color: white;
+    transition: all;
+    transition-duration: .4s;
+}
+.second-footer .icons .i3:hover{
+    background-color:#0b6dc4;
+    color: white;
+    transition: all;
+    transition-duration: .4s;
+}
+.second-footer .icons .i2:hover{
+    background-color:rgb(233, 74, 74);
+    color: white;
+    transition: all;
+    transition-duration: .4s;
+}
+.second-footer .icons .i1:hover{
+    background-color:#093e6d;
+    color: white;
+    transition: all;
+    transition-duration: .4s;
+}
+/* end second footer */
